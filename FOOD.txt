@@ -1,0 +1,7 @@
+player.additem 000F742E 99; Carrot
+player.additem 000330F8 99; Corn
+player.additem 000EF24D 99; Gourd
+player.additem 000FAFEB 99; Melon
+player.additem 00033102 99; Mutfruit
+player.additem 000E0043 99; Razorgrain
+player.additem 0009DCC4 99; Tato

@@ -1,0 +1,5 @@
+player.additem FE007071 5; Chinese Grenade Launcher
+player.additem 00169523 5; Brotherhood Fatigues (Standard)
+player.additem 001F1A7C 1; Brotherhood Fatigues (Medic)
+player.additem 001F1A7F 1; Brotherhood Fatigues (Lancer)
+player.additem 0008158D 5; Harness

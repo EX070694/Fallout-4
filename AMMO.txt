@@ -1,0 +1,26 @@
+player.additem 00056917 9; Vertibird Grenades
+player.additem 0001F66B 9999; .308 Round
+player.additem 0004CE87 9999; .38 Round
+player.additem 0009221C 9999; .44 Round
+player.additem 0001F66A 9999; .45 Round
+player.additem 0302C8B1 9999; .45-70 Caliber
+player.additem 0001F279 9999; .50 Caliber
+player.additem 0001F276 9999; 10mm Round
+player.additem 0018ABDF 9999; 2mm EC 
+player.additem fE007f9E 9999; 40mm Frag Grenade
+player.additem 0001F278 9999; 5.56 Round
+player.additem 0001F66C 9999; 5mm Round
+player.additem 06037897 9999; 7.62 Round
+player.additem 001025AA 9999; Alien Blaster Round
+player.additem 000FD11C 9999; Cannonball
+player.additem 0018ABE2 9999; Cryo Cell
+player.additem 000CAC78 9999; Flamer Fuel
+player.additem 001025AE 9999; Flares
+player.additem 000C1897 9999; Fusion Cell
+player.additem 000DF279 9999; Gamma Round
+player.additem 03010B80 9999; Harpoon
+player.additem 000E6B2E 9999; Mini Nuke 
+player.additem 000CABA3 9999; Missile 
+player.additem 0001DBB7 9999; Plasma Cartridge
+player.additem 000FE269 9999; Railway Spike
+player.additem 0001F673 9999; Shotgun Shell 
