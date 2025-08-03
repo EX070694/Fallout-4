@@ -1,21 +1,16 @@
-; GENERAL
-tmm 1; unlock map
-player.setlevel 100
-player.setav health 9999
-player.setav actionpoints 9999
-player.setav carryweight 9999
-SetPcCanUsePowerArmor 1
-player.additem 0000000F 9999999; Cash
-player.additem 0000000A 999; Bobby Pins
-player.additem 00015167 999; Radaway
-player.additem 0200917D 999; Super Stimpaks
-player.additem 00145EC5 1; Ranger Helmet
-player.additem 0200885B 1; Elite Riot Gear
-player.additem 0100080D 1; Sleepytyme
-player.additem 0100084F 1; Anti-Materiel Rifle
+ELECTIVE
+TMM 1; Unlock Map
+player.setlevel 15; Set player level to 15
+player.additem 0000000F 50000; Caps
+player.additem 0000000A 99; Lockpicks
+player.additem 00023742 99; Radaway
+player.additem 00023736 99; Stimpaks
+player.additem 000DC8E7 1; Deliverer
+player.additem 00223CFA 1; Gunner Guard Outfit
+player.additem 000536C5 1; Wraparound Goggles
 
-; MAX SPECIAL
-player.setav strength 9
+MAX SPECIAL
+player.setav strength 10
 player.setav perception 10
 player.setav endurance 10
 player.setav charisma 10
@@ -23,154 +18,283 @@ player.setav intelligence 10
 player.setav agility 10
 player.setav luck 10
 
-; MAX SKILLS
-player.modav barter 100
-player.modav energyweapons 100
-player.modav explosives 100
-player.modav guns 100
-player.modav lockpick 100
-player.modav medicine 100
-player.modav meleeweapons 100
-player.modav repair 100
-player.modav science 100
-player.modav sneak 100
-player.modav speech 100
-player.modav survival 100
-player.modav unarmed 100
+MAX PERKS
+player.addperk 0001DAFE; Iron Fist 1 
+player.addperk 0001DAFF
+player.addperk 0001DB00
+player.addperk 00065E42
+player.addperk 00065E43
+player.addperk 0004A0B5; Big Leagues 1
+player.addperk 000E36FC
+player.addperk 000E36FD
+player.addperk 000E36FE
+player.addperk 00065E05
+player.addperk 0004B254; Armorer 1
+player.addperk 0004B255
+player.addperk 0004B256
+player.addperk 001797EA
+player.addperk 0004B253; Blacksmith 1
+player.addperk 0004B26A
+player.addperk 000264D8
+player.addperk 0004A0D6; Heavy Gunner 1
+player.addperk 0004A0D7
+player.addperk 0004A0D8
+player.addperk 00065E2A
+player.addperk 00065E2B
+player.addperk 0004B24E; Strong Back 1
+player.addperk 00065E5B
+player.addperk 00065E5C
+player.addperk 001D2489
+player.addperk 001D2487
+player.addperk 001D2488
+player.addperk 00065DF9; Basher 1
+player.addperk 00065DFA
+player.addperk 00065DFB
+player.addperk 00065DFC
+player.addperk 001D247F; Rooted 1
+player.addperk 001D2480
+player.addperk 001D2482
+player.addperk 0004D89B; Pain Train 1
+player.addperk 00065E3C
+player.addperk 00065E3D
+player.addperk 0004D88A; Pickpocket 1
+player.addperk 000E3702
+player.addperk 000E3703
+player.addperk 001D248F
+player.addperk 0004A0B6; Rifleman 1
+player.addperk 0004A0B7
+player.addperk 0004A0B8
+player.addperk 0006FA20
+player.addperk 00065E52
+player.addperk 000D2287; Awareness 1
+player.addperk 000523FF
+player.addperk 00052400
+player.addperk 00052401
+player.addperk 001D246A
+player.addperk 0004C923; Demolition Expert 1
+player.addperk 0004C924
+player.addperk 0004C925
+player.addperk 00065E13
+player.addperk 0004C93B; Night Person 1
+player.addperk 001D2495
+player.addperk 000CA99D; Refractor 1
+player.addperk 000CA99E
+player.addperk 000CA99F
+player.addperk 00065E4B
+player.addperk 00065E4C
+player.addperk 0004C92A; Sniper 1
+player.addperk 0004C92B
+player.addperk 0004C92C
+player.addperk 00024AFF; Penetrator 1
+player.addperk 001D2477
+player.addperk 0004D890; Concentrated Fire 1
+player.addperk 001D2459
+player.addperk 001D245A
+player.addperk 0004A0AB; Toughness 1
+player.addperk 0004A0AE
+player.addperk 0004A0AF
+player.addperk 00065E5D
+player.addperk 00065E5E
+player.addperk 0004A0B9; Lead Belly 1
+player.addperk 00024B00
+player.addperk 00024B01
+player.addperk 0004A0CF; Lifegiver 1
+player.addperk 001D2465
+player.addperk 001D2467
+player.addperk 0004A0D5; Chem Resistant 1
+player.addperk 00065E0C
+player.addperk 000E36F9; Aquaboy / Aquagirl 1
+player.addperk 001D248D
+player.addperk 001D2479; Rad Resistant 1
+player.addperk 001D247A
+player.addperk 001D247B
+player.addperk 0004C92D; Adamantium Skeleton 1
+player.addperk 00024AFD
+player.addperk 00024AFE
+player.addperk 0004D89E; Ghoulish 1
+player.addperk 00065E22
+player.addperk 00065E23
+player.addperk 0004D8A7; Solar Powered 1
+player.addperk 001D2484
+player.addperk 001D2485
+player.addperk 001D2456; Cap Collector 1
+player.addperk 000D75E2
+player.addperk 001D2457
+player.addperk 00019AA3; Lady Killer / Black Widow 1
+player.addperk 00065E33
+player.addperk 00065E34
+player.addperk 001D246B; Lone Wanderer 1
+player.addperk 001D246D
+player.addperk 001D246E
+player.addperk 0004B26D; Attack Dog 1
+player.addperk 001D244D
+player.addperk 001D244E
+player.addperk 0001E67F; Animal Friend 1
+player.addperk 0004A0D9
+player.addperk 001D2450
+player.addperk 0004D88D; Local Leader 1
+player.addperk 001D2468
+player.addperk 0004D887; Party Boy / Party Girl 1
+player.addperk 001D2473
+player.addperk 001D2474
+player.addperk 001D2461; Inspirational 1
+player.addperk 001D2462
+player.addperk 001D2463
+player.addperk 001D248A; Wasteland Whisperer 1
+player.addperk 001D248B
+player.addperk 001D248C
+player.addperk 001D02B5; Intimidation 1
+player.addperk 001D02B6
+player.addperk 001D02B7
+player.addperk 000207D1; V.A.N.S. 1
+player.addperk 0004C926; Medic 1
+player.addperk 0006FA1C
+player.addperk 0006FA1D
+player.addperk 00065E35
+player.addperk 0004A0DA; Gun Nut 1
+player.addperk 0004A0DB
+player.addperk 0004A0DC
+player.addperk 0016578E
+player.addperk 00052403; Hacker 1
+player.addperk 00052404
+player.addperk 00052405
+player.addperk 001D245D
+player.addperk 00065E65; Scrapper 1
+player.addperk 001D2483
+player.addperk 000264D9; Science! 1
+player.addperk 000264DA
+player.addperk 000264DB
+player.addperk 0016578F
+player.addperk 000E36FF; Chemist 1
+player.addperk 000E3700
+player.addperk 000E3701
+player.addperk 001D2458
+player.addperk 0004D889; Robotics Expert 1
+player.addperk 00065E64
+player.addperk 001ACF96
+player.addperk 001D246F; Nuclear Physicist 1
+player.addperk 001D2470
+player.addperk 001D2471
+player.addperk 0004D886; Nerd Rage! 1
+player.addperk 00065E37
+player.addperk 00065E38
+player.addperk 0004A09F; Gunslinger 1
+player.addperk 0004A0A9
+player.addperk 0004A0AA
+player.addperk 0006FA1E
+player.addperk 00065E24
+player.addperk 0004A0C5; Commando 1
+player.addperk 0004A0C6
+player.addperk 0004A0C7
+player.addperk 0006FA24
+player.addperk 00065E0D
+player.addperk 0004C935; Sneak 1
+player.addperk 000B9882
+player.addperk 000B9883
+player.addperk 000B9884
+player.addperk 000B9881
+player.addperk 0004B258; Mister Sandman 1
+player.addperk 001D2490
+player.addperk 001D2491
+player.addperk 0004D869; Action Boy/Action Girl 1
+player.addperk 00065DF5
+player.addperk 0004DDEE; Moving Target 1
+player.addperk 001D2492
+player.addperk 001E0791
+player.addperk 0004D8A6; Ninja 1
+player.addperk 000E3704
+player.addperk 000E3705
+player.addperk 000221FC; Quick Hands 1
+player.addperk 001D2478
+player.addperk 001D2451; Blitz 1
+player.addperk 001D2452
+player.addperk 0004D881; Gun Fu 1
+player.addperk 001D244F
+player.addperk 001D245C
+player.addperk 0004C942; Fortune Finder 1
+player.addperk 001ACF98
+player.addperk 001ACF99
+player.addperk 00215CD4
+player.addperk 0004A0B0; Scrounger 1
+player.addperk 001ACF9A
+player.addperk 001ACF9B
+player.addperk 001EB99C
+player.addperk 0004A0BB; Bloody Mess 1
+player.addperk 001D2453
+player.addperk 001D2454
+player.addperk 001F418E
+player.addperk 0004C929; Mysterious Stranger 1
+player.addperk 001D2493
+player.addperk 001D2494
+player.addperk 001D245E; Idiot Savant 1
+player.addperk 001D245F
+player.addperk 001D2460
+player.addperk 0004D87A; Better Criticals 1
+player.addperk 00065E03
+player.addperk 00065E04
+player.addperk 0004C91F; Critical Banker 1
+player.addperk 0004C920
+player.addperk 0004C921
+player.addperk 0004D8A2; Grim Reaper's Sprint 1
+player.addperk 00065E3E
+player.addperk 00065E3F
+player.addperk 0004D895; Four Leaf Clover 1
+player.addperk 00065E20
+player.addperk 00065E21
+player.addperk 001D245B
+player.addperk 001D247C; Ricochet 1
+player.addperk 001D247D
+player.addperk 001D247E
 
-; PERKS
-player.addperk 0015EADB; Abominable
-player.addperk 00031DBA; Action Boy
-player.addperk 0007B202; Action Girl
-player.addperk 00094EC4; Adamantium Skeleton
-player.addperk 0015EAE0; Animal Control
-player.addperk 00031DB5; Animal Friend
-player.addperk 0015EADF; Beautiful Beatdown
-player.addperk 00031DBB; Better Criticals
-player.addperk 0015C60B; Better Healing
-player.addperk 0017B790; Blood of the Legion
-player.addperk 00094EBA; Bloody Mess
-player.addperk 0017714E; Bonds of Steel
-player.addperk 0015EAD7; Bug Stomper
-player.addperk 00167723; Calm Heart
-player.addperk 00167E26; Camel of the Mojave
-player.addperk 0017714F; Causeless Rebel
-player.addperk 00165182; Center of Mass
-player.addperk 00099827; Chem Resistant
-player.addperk 0009982D; Chemist
-player.addperk 001361B3; Cherchez La Femme
-player.addperk 00099828; Commando
-player.addperk 00031DE1; Comprehension
-player.addperk 00031DC4; Computer Whiz
-player.addperk 00044CAF; Concentrated Fire
-player.addperk 001361B4; Confirmed Bachelor
-player.addperk 00138562; Cowboy
-player.addperk 0015EAD8; Day Tripper
-player.addperk 00031DAB; Demolition Expert
-player.addperk 0015EAE1; Dine and Dash
-player.addperk 00031DD8; Educated
-player.addperk 0014C130; Empathy Synthesizer
-player.addperk 0015C60E; Enhanced Sensors
-player.addperk 00031DD9; Entomologist
-player.addperk 00031DE5; Explorer
-player.addperk 0013E6BD; Faithful Protector
-player.addperk 00094EBF; Fast Metabolism
-player.addperk 0015EAD9; Fast Times
-player.addperk 00165118; Ferocious Loyalty
-player.addperk 00094EC1; Finesse
-player.addperk 00031DE3; Fortune Finder
-player.addperk 0015EADA; Free Radical
-player.addperk 00165118; Friend of the Night
-player.addperk 0015EAE3; Friendly Help
-player.addperk 0015D2BC; Full Maintenance
-player.addperk 00135EC9; Ghastly Scavenger
-player.addperk 00099834; Grim Reaper's Sprint
-player.addperk 00094EBB; Gunslinger
-player.addperk 0016581B; Hand Loader
-player.addperk 00163349; Hand of Vengeance
-player.addperk 0014609C; Heave, Ho!
-player.addperk 00031DAC; Here and Now
-player.addperk 001651B6; Hit the Deck
-player.addperk 00135F18; Hunter
-player.addperk 0014C069; Hypertrophy Accelerator
-player.addperk 00044CB0; Infiltrator
-player.addperk 00044CB1; Intense Training
-player.addperk 00165815; Jury Rigging
-player.addperk 0015B8E7; Khan Trick
-player.addperk 00094EB9; Lady Killer
-player.addperk 00165789; Laser Commander
-player.addperk 00044CA9; Lead Belly
-player.addperk 0015B8E9; Legion Assault
-player.addperk 00031DB1; Life Giver
-player.addperk 00031DB7; Light Step
-player.addperk 00146099; Living Anatomy
-player.addperk 0014C132; Logic Co-Processor
-player.addperk 00146098; Long Haul
-player.addperk 0015EAE4; Lord Death
-player.addperk 0015EADC; Machine Head
-player.addperk 00135EC3; Math Wrath
-player.addperk 00164AFB; Meat of Champions
-player.addperk 0015EADE; Melee Hacker
-player.addperk 0014609A; Meltdown
-player.addperk 00137800; Miss Fortune
-player.addperk 00031DAD; Mister Sandman
-player.addperk 0015EAE2; Mutant Massacre
-player.addperk 00031DBC; Mysterious Stranger
-player.addperk 0014CCDF; NEMEAN
-player.addperk 00044CA7; Nerd Rage!
-player.addperk 000E2C49; Nerves of Steel
-player.addperk 00094EBD; Night Person
-player.addperk 00031DCC; Ninja
-player.addperk 0014C12E; Nociception Regulator
-player.addperk 00165AE6; Nuka Chemist
-player.addperk 0015D2BE; Old Vaquero
-player.addperk 0014C12D; Optics Enhancer
-player.addperk 0014609B; Pack Rat
-player.addperk 00044CAA; Paralyzing Palm
-player.addperk 0014CCE1; PHOENIX
-player.addperk 0014609F; Piercing Strike
-player.addperk 00165AEF; Plasma Spaz
-player.addperk 00058FDF; Power Armor Training
-player.addperk 0014C134; Probability Calculator
-player.addperk 00135F75; Purifier
-player.addperk 00031DB2; Pyromaniac
-player.addperk 001377FE; Quick Draw
-player.addperk 000E2C4A; Rad Absorption
-player.addperk 001656FD; Rad Child
-player.addperk 00031DA9; Rad Resistance
-player.addperk 0015B8E8; Ranger Takedown
-player.addperk 001377FD; Rapid Reload
-player.addperk 0014C12A; Reflex Booster
-player.addperk 0015C610; Regular Maintenance
-player.addperk 0010F09E; Retention
-player.addperk 00031DC2; Robotics Expert
-player.addperk 0014609D; Run 'n Gun
-player.addperk 0015C613; Scribe Assistant
-player.addperk 0015B8EA; Scribe Counter
-player.addperk 00031DAA; Scrounger
-player.addperk 0015C611; Search and Mark
-player.addperk 0015EADD; Set Lasers for Fun
-player.addperk 0016578B; Shotgun Surgeon
-player.addperk 00031DB3; Silent Running
-player.addperk 00165446; Slayer
-player.addperk 00031DB4; Sniper
-player.addperk 00031DC5; Solar Powered
-player.addperk 00165AF0; Splash Damage
-player.addperk 0015C60C; Spotter
-player.addperk 00165181; Spray and Pray
-player.addperk 0015C60F; Stealth Girl
-player.addperk 00165449; Stonewall
-player.addperk 00031DDE; Strong Back
-player.addperk 0014609E; Super Slam
-player.addperk 00031DD3; Swift Learner
-player.addperk 00031DBD; Tag!
-player.addperk 0010C6CD; Terrifying Presence
-player.addperk 00165AEC; The Professional
-player.addperk 0015EAD6; Tough Guy
-player.addperk 00031DE0; Toughness
-player.addperk 00146096; Travel Light
-player.addperk 0013E6BE; Unshakeable Tracker
-player.addperk 00165447; Unstoppable Force
-player.addperk 00165816; Vigilant Recycle
-player.addperk 00146097; Weapon Handling
-player.addperk 0015C60D; Whiskey Rose
+player.addperk 030423A3; Far Harbor, (03)
+player.addperk 03043222
+player.addperk 030423A4
+player.addperk 030365F8
+player.addperk 030423A5
+player.addperk 03034E7F
+player.addperk 03034E81
+
+player.addperk 06028A23; Nuka World, (06)
+player.addperk 06028A22 
+player.addperk 06028A25
+player.addperk 06029B25
+player.addperk 060296C0
+player.addperk 060296BE
+player.addperk 06029B26
+
+VAULT-TEC & AUTOMATRON BLUEPRINTS
+set DLC06AllowVaultAnywhere to 1
+set co_DLC04Bot_Hand_Sentry_Autolaser_Global to 1
+set co_DLC04Bot_Torso_Nukatron_Global to 1
+set co_DLC04Bot_Torso_Nira_Global to 1
+set co_DLC04Bot_Torso_MisterHandy_Armor_Global to 1
+set co_DLC04Bot_Legs_Sentrybot_Global to 1
+set co_DLC04Bot_Hand_Protectron_Weap_Lasergun01_Global to 1
+set co_DLC04Bot_Hand_MrGutsy_Weap_Laser_Global to 1 
+set co_DLC01Bot_Arm_Assaultron_Global to 1
+set co_DLC01Bot_Arm_Protectron_Global to 1
+set co_DLC01Bot_Arm_RoboBrain_Global to 1
+set co_DLC01Bot_Arm_Sentry_Global to 1
+set co_DLC01Bot_Hand_LightningGun_Global to 1
+set co_DLC01Bot_Head_Assaultron_Global to 1
+set co_DLC01Bot_Head_Protectron_Global to 1
+set co_DLC01Bot_Head_RoboBrain_Global to 1
+set co_DLC01Bot_Head_Sentry_Global to 1
+set co_DLC01Bot_Legs_Assaultron_Global to 1
+set co_DLC01Bot_Legs_Protectron_Global to 1
+set co_DLC01Bot_Legs_RoboBrain_Global to 1
+set co_DLC01Bot_Legs_Sentry_Global to 1
+set co_DLC01Bot_Torso_Assaultron_Armor_Construction_Global to 1
+set co_DLC01Bot_Torso_Assaultron_Armor_Wasteland_Global to 1
+set co_DLC01Bot_Torso_Assaultron_Global to 1
+set co_DLC01Bot_Torso_MrHandy_Armor_Construction_Global to 1
+set co_DLC01Bot_Torso_MrHandy_Armor_Wasteland_Global to 1
+set co_DLC01Bot_Torso_Protectron_Armor_Construction_Global to 1
+set co_DLC01Bot_Torso_Protectron_Armor_Wasteland_Global to 1
+set co_DLC01Bot_Torso_Protectron_Global to 1
+set co_DLC01Bot_Torso_Robobrain_Armor_Construction_Global to 1
+set co_DLC01Bot_Torso_Robobrain_Armor_Wasteland_Global to 1
+set co_DLC01Bot_Torso_RoboBrain_Global to 1
+set co_DLC01Bot_Torso_Sentry_Armor_Construction_Global to 1
+set co_DLC01Bot_Torso_Sentry_Armor_Wasteland_Global to 1
+set co_DLC01Bot_Torso_Sentry_Global to 1 
